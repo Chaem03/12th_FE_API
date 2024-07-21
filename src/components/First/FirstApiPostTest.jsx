@@ -2,6 +2,8 @@ import { useState } from "react";
 import axios from "axios";
 import { BtnContainer, PostWrapper, ContentInput } from "./Styled";
 import Title from "../common/Title";
+// import * as S from "./"
+//스타일 파일 하나 만들어서 관리 이럴경우 <S.wrapper>로 태그 작성
 
 const FirstApiPostTest = () => {
   const [newPost, setNewPost] = useState({
